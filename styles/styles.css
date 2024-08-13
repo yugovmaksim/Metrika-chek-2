@@ -1,0 +1,155 @@
+body {
+  font-family: "Manrope", sans-serif;
+  width: 100%;
+  background: #f5f5f5;
+  font-weight: 400;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 15px;
+  max-width: 1180px;
+  letter-spacing: -0.03em;
+}
+
+section:first-child {
+  padding-top: 70px;
+}
+
+.metric__heading {
+  margin-bottom: 30px;
+  width: 956px;
+  font-size: 60px;
+  line-height: 60px;
+  letter-spacing: -0.03em;
+  color: #121212;
+}
+
+.metric__image {
+  position: relative;
+  margin-bottom: 150px;
+  background-image: url(../resources/Rectangle.png);
+  width: 1150px;
+  height: 500px;
+}
+
+.metric__text-aboutus {
+  position: absolute;
+  top: 379px;
+  left: 40px;
+  bottom: 40px;
+  width: 430px;
+  font-size: 20px;
+  line-height: 27.32px;
+  color: white;
+}
+
+.metric-aboutus__text {
+  font-size: 18px;
+  line-height: 24.59px;
+  margin-bottom: 30px;
+  color: #121212;
+}
+
+.metric-aboutus__text-history {
+  width: 1040px;
+  font-size: 45px;
+  line-height: 61.47px;
+  letter-spacing: -0.03em;
+  color: #121212;
+}
+
+.metric-aboutus__btn {
+  margin-top: 30px;
+  margin-bottom: 150px;
+  display: block;
+  width: 255px;
+  height: 67px;
+  border-radius: 5px;
+  text-align: center;
+  line-height: 67px;
+  text-decoration: none;
+  font-size: 20px;
+  background-color: #ad1818;
+  color: white;
+  cursor: pointer;
+}
+
+.projects {
+  margin-bottom: 90px;
+}
+
+.projects__text {
+  margin-bottom: 30px;
+  font-size: 18px;
+  line-height: 24.59px;
+}
+
+.projects__image {
+  margin-bottom: 15px;
+  height: 450px;
+}
+
+.projects__description {
+  margin-bottom: 15px;
+  font-size: 30px;
+  line-height: 40.98px;
+}
+
+.projects__link {
+  margin-bottom: 90px;
+  font-size: 20px;
+  line-height: 27.32px;
+  color: #ad1818;
+  text-decoration: none;
+}
+
+.projects__btn {
+  width: 100%;
+  height: 153px;
+  display: block;
+  border: 1px solid #ad1818;
+  background-color: white;
+  font-size: 30px;
+  line-height: 40.98px;
+  color: #ad1818;
+  cursor: pointer;
+}
+
+.projects__btn:hover {
+  background-color: #ad1818;
+  color: #ffffff;
+}
+
+.services-section {
+  margin-top: 150px;
+  padding-top: 151px;
+  padding-left: 125px;
+  padding-right: 125px;
+  box-sizing: border-box;
+  width: 100%;
+  height: 1844px;
+  background-color: #121212;
+}
+
+.services__text {
+  margin-bottom: 34px;
+  margin-left: 2px;
+  width: 66px;
+  font-size: 18px;
+  line-height: 24.59px;
+  color: #ffffff;
+}
+
+.services__image {
+  margin-bottom: 15px;
+  width: 100%;
+  height: 270px;
+}
+
+.services__text-description {
+  margin-bottom: 60px;
+  font-size: 30px;
+  line-height: 40.98px;
+  color: #ffffff;
+}
